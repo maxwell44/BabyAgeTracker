@@ -12,7 +12,7 @@ public struct BabyAgeWidgetEntryView: View {
     
     public var body: some View {
         ZStack {
-            Color("WidgetBackground", bundle: .module)
+            Color.gray.opacity(0.1)
             
             VStack(spacing: 8) {
                 if let baby = entry.baby {

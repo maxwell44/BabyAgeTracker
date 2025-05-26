@@ -1,0 +1,15 @@
+{
+  "originHash" : "0dba46f10833826bc7e10345baf460d2974d3e89c9d16067e3246a3ed28c3302",
+  "pins" : [
+    {
+      "identity" : "babyagetracker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maxwell44/BabyAgeTracker.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "09bcde8a10149f290d50e4dfc05713aca6555249"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1B24293C2DE42146000C2793 /* BabyAgeTracker in Frameworks */ = {isa = PBXBuildFile; productRef = 1B24293B2DE42146000C2793 /* BabyAgeTracker */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1B24291A2DE41BC6000C2793 /* BirthdayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B24293C2DE42146000C2793 /* BabyAgeTracker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = BirthdayDemo;
 			packageProductDependencies = (
+				1B24293B2DE42146000C2793 /* BabyAgeTracker */,
 			);
 			productName = BirthdayDemo;
 			productReference = 1B24291A2DE41BC6000C2793 /* BirthdayDemo.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 1B2429112DE41BC6000C2793;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1B24293A2DE42146000C2793 /* XCRemoteSwiftPackageReference "BabyAgeTracker" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1B24291B2DE41BC6000C2793 /* Products */;
 			projectDirPath = "";
@@ -324,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1B24293A2DE42146000C2793 /* XCRemoteSwiftPackageReference "BabyAgeTracker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxwell44/BabyAgeTracker.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1B24293B2DE42146000C2793 /* BabyAgeTracker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B24293A2DE42146000C2793 /* XCRemoteSwiftPackageReference "BabyAgeTracker" */;
+			productName = BabyAgeTracker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1B2429122DE41BC6000C2793 /* Project object */;
 }
